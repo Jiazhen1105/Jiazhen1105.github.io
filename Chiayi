@@ -2,9 +2,3 @@
 title: #Chiayi attractions food
 subtitle: #Food and fun in Chiayi districts
 description: #To recommend the sights and delicacies around Chiayi, and organize many different itineraries waiting for you to experience.
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://<user_name>.github.io/<repo_name>
-root: /<repo_name>/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
