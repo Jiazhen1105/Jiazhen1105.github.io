@@ -2,3 +2,9 @@
 title: #嘉義景點美食
 subtitle: #嘉義各區好吃好玩的
 description: #來推薦嘉義各地的景點與美食，還有整理出許多不同的行程等你來體驗。
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://<user_name>.github.io/<repo_name>
+root: /<repo_name>/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
