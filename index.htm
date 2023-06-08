@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"> <!--lang="zh-Hant"表示是繁體中文-->
+	<head>
+		<!--<meta> tag 用來描述 HTML 文件 (document) 的元資訊 (metadata)，透過 <meta> 我們可以設定很多不同類型的網頁資訊。-->
+		<meta charset="UTF-8"><!--HTML <meta charset="utf-8"> 標籤 (tag) - 指定網頁所使用的編碼-->
+		<meta name="description" content="Free Web Tutorial"><!--HTML <meta name="description" content=""> 標籤 (tag) - 指定網頁描述說明。
+		<meta> description 用來簡短說明你的網頁內容，通常是用來給搜尋引擎 (Google) 爬的，會用來顯示在搜尋結果中。-->
+		<meta name="keywords" content="HTML,CSS,JavaScript"><!--HTML <meta name="keywords" content=""> 標籤 (tag) - 說明網頁關鍵字
+		<meta> keywords 用來描述你的網頁內容有哪些關鍵字詞，通常是用來給搜尋引擎 (Google) 爬的，幫助搜尋引擎理解你的網頁，你可以用逗號 (comma) 來分隔開不同的關鍵字。
+		Google 有說過它現在已經不看 meta keywords 的內容了 ，簡單來說就是 keywords 完全沒用了，但你可以將關鍵字放在 meta description 中。-->
+		<meta name="author" content="Mike"><!--HTML <meta name="author" content=""> 標籤 (tag) - 說明網頁的作者資訊
+		<meta> author 用來指定作者或頁面擁有人資訊。-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--HTML <meta name="viewport" content=""> 標籤 (tag) - 設定手機行動版網頁的 viewport 資訊-->
+		<!--width=device-width 指定瀏覽器頁面的寬度同裝置 (device) 的寬度。initial-scale=1.0 指定畫面初始縮放比例為 100%，即不放大也不縮小。-->
+		<!--minimum-scale=1 設定畫面最小的縮放比例為 1， maximum-scale=1 設定畫面最大的縮放比例為 1，都設為 1 的意思其實就是說不能縮放-->
+		<!--user-scalable 用來設定是否允許使用者改變縮放比例，user-scalable=no 就是不允許縮放-->
+		<meta http-equiv="refresh" content=";"><!--HTML <meta http-equiv="refresh" content=""> 標籤 (tag) - 自動跳轉網頁。
+		如果不加 url 參數則是定時刷新頁面的意思<meta http-equiv="refresh" content="5; url=https://www.fooish.com">-->
+		<meta name="robots" content=""><!--HTML <meta name="robots" content="noindex, noarchive, nofollow"> 標籤 (tag) - 禁止網頁被搜尋引擎索引收錄
+		<meta> robots 標記讓你可以以針對特定網頁控管應如何將各個網頁納入索引並顯示在搜尋引擎的 (Google) 搜尋結果中。
+		noindex: 不要在搜尋結果中顯示這個網頁
+		nofollow: 不要追蹤這個網頁上的連結
+		none: 相當於 noindex, nofollow
+		noarchive: 不要在搜索結果中顯示快取連結
+		nosnippet: 不要在搜尋結果中顯示這個網頁的文字摘要或影片預覽畫面
+		notranslate: 不要在搜尋結果中提供這個網頁的翻譯
+		noimageindex: 不為這個網頁上的圖片建立索引
+		unavailable_after: [date/time]: 在指定的日期/時間後不在搜尋結果中顯示這個網頁
+		all: 預設值，等同於 index, follow
+		<meta name="robots" content="noindex, nofollow">
+		-->
+		<title>嘉義美食景點行程推薦</title>
+		<link rel="stylesheet" href="project_style.css"><!--連結css檔案-->
+		<!--<base href="https://examples.com/somedir/">設定根目錄-->
+	</head>
+	<body>
+		<!--<div>
+			<img src="https://jamie-commander.github.io/picture/288815.jpg" with="600" heigh="400" alt="mumu圖片">
+		</div>-->
+		<div>
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:24.0pt"><span style="font-family:標楷體">嘉義美食景點行程推薦</span></span></strong></span></span></p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">以一日遊的行程來安排，接下來會推薦飯店、美食、景點等可以讓大家自己安排想去哪裡。</span></span></span></p>
+
+			<p align=center><img width=553 height=290 src="https://jamie-commander.github.io/picture/1.jpg" ></p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:24.0pt"><span style="font-family:標楷體">「推薦飯店」</span></span></strong></span></span></p>
+
+			<p align=center><img width=553 height=290 src="https://jamie-commander.github.io/picture/2.jpg" ></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<table align="center" cellspacing="0" class="MsoTable15Grid1Light" style="border-collapse:collapse; border:none; width:554px">
+				<tbody>
+					<tr>
+						<td style="background-color:yellow; border-bottom:2px solid #666666; border-left:1px solid #999999; border-right:1px solid #999999; border-top:1px solid #999999; height:18px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">飯店名稱</span></span></strong></span></span></p>
+						</td>
+						<td style="background-color:yellow; border-bottom:2px solid #666666; border-left:none; border-right:1px solid #999999; border-top:1px solid #999999; height:18px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">飯店位置</span></span></strong></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">嘉義耐斯王子大飯店</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市，忠孝路</span><span style="font-family:&quot;Times New Roman&quot;,serif">600</span><span style="font-family:標楷體">號</span><span style="font-family:&quot;Times New Roman&quot;,serif"> |</span><span style="font-family:標楷體">距離市中心</span><span style="font-family:&quot;Times New Roman&quot;,serif">2.29KM</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">新悅花園飯店</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市，保順路</span><span style="font-family:&quot;Times New Roman&quot;,serif">69</span><span style="font-family:標楷體">號</span><span style="font-family:&quot;Times New Roman&quot;,serif"> |</span><span style="font-family:標楷體">距離市中心</span><span style="font-family:&quot;Times New Roman&quot;,serif">3.02KM</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">嘉義皇品國際飯店</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市，西區自由路</span><span style="font-family:&quot;Times New Roman&quot;,serif">468</span><span style="font-family:標楷體">號</span><span style="font-family:&quot;Times New Roman&quot;,serif"> |</span><span style="font-family:標楷體">距離市中心</span><span style="font-family:&quot;Times New Roman&quot;,serif">1.73KM</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">嘉義智選假日飯店</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市，中興路</span><span style="font-family:&quot;Times New Roman&quot;,serif">69</span><span style="font-family:標楷體">號</span><span style="font-family:&quot;Times New Roman&quot;,serif"> |</span><span style="font-family:標楷體">距離市中心</span><span style="font-family:&quot;Times New Roman&quot;,serif">0.41KM</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">嘉義兆品飯店</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:53px; vertical-align:top; width:277px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市，文化路</span><span style="font-family:&quot;Times New Roman&quot;,serif">257</span><span style="font-family:標楷體">號</span><span style="font-family:&quot;Times New Roman&quot;,serif"> |</span><span style="font-family:標楷體">距離市中心</span><span style="font-family:&quot;Times New Roman&quot;,serif">0.89KM</span></span></span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:24.0pt"><span style="font-family:標楷體">「推薦美食」</span></span></strong></span></span></p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">說到嘉義大家一定都會想到雞肉飯，但是為了不讓大家踩雷，所以來為大家推薦當地大家都說好吃的雞肉飯。</span></span></span></p>
+
+			<p align=center><img width=553 height=290 src="https://jamie-commander.github.io/picture/3.jpg" ></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">1</span></span></strong><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">、雞肉飯推薦</span></span></strong></span></span></p>
+
+			<table align="center" cellspacing="0" class="MsoTable15Grid1Light" style="border-collapse:collapse; border:none; width:557px">
+				<tbody>
+					<tr>
+						<td style="background-color:yellow; border-bottom:2px solid #666666; border-left:1px solid #999999; border-right:1px solid #999999; border-top:1px solid #999999; height:17px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><a name="_Hlk137130920"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">店名</span></span></strong></a></span></span></p>
+						</td>
+						<td style="background-color:yellow; border-bottom:2px solid #666666; border-left:none; border-right:1px solid #999999; border-top:1px solid #999999; height:17px; vertical-align:top; width:180px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">地址</span></span></strong></span></span></p>
+						</td>
+						<td style="background-color:yellow; border-bottom:2px solid #666666; border-left:none; border-right:1px solid #999999; border-top:1px solid #999999; height:17px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">營業時間</span></span></strong></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">劉里長雞肉飯</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:180px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市東區公明路</span><span style="font-family:&quot;Times New Roman&quot;,serif">197</span><span style="font-family:標楷體">號</span></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Times New Roman&quot;,serif">07:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">14:30</span><span style="font-family:標楷體">、</span><span style="font-family:&quot;Times New Roman&quot;,serif">16:30</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">19:30</span><span style="font-family:標楷體">（週一公休）</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">阿溪雞肉飯</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:180px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市西區仁愛路</span><span style="font-family:&quot;Times New Roman&quot;,serif">356</span><span style="font-family:標楷體">號</span></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Times New Roman&quot;,serif">06:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">13:30</span><span style="font-family:標楷體">（週四公休）</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">大同雞肉飯</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:180px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市東區民族路</span><span style="font-family:&quot;Times New Roman&quot;,serif">113</span><span style="font-family:標楷體">號</span></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Times New Roman&quot;,serif">10:30</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">20:30</span><span style="font-family:標楷體">（週二公休）</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">郭家雞肉飯</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:180px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市東區文化路</span><span style="font-family:&quot;Times New Roman&quot;,serif">148</span><span style="font-family:標楷體">號</span></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Times New Roman&quot;,serif">10:00&ndash;03:00</span></span></span></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-bottom:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:16.0pt"><span style="font-family:標楷體">阿霞雞肉飯</span></span></strong></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:180px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市東區文化路</span><span style="font-family:&quot;Times New Roman&quot;,serif">119</span><span style="font-family:標楷體">號</span></span></span></p>
+						</td>
+						<td style="border-bottom:1px solid #999999; border-left:none; border-right:1px solid #999999; border-top:none; height:49px; vertical-align:top; width:189px">
+						<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Times New Roman&quot;,serif">18:20&ndash;00:00</span></span></span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">2</span></span></strong><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">、源興御香屋</span></span></strong></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">說到嘉義的美食想來想去還有一間不管平日還是假日都排隊滿滿的飲料店剛好位於文化路夜市的圓環。</span></span></span></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">圓環總店</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：嘉義市中山路</span><span style="font-family:&quot;Times New Roman&quot;,serif">321</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">營業時間：</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">週三&ndash;週五</span><span style="font-family:&quot;Times New Roman&quot;,serif">10:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">20:00</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">週六</span><span style="font-family:&quot;Times New Roman&quot;,serif">10:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">21:00</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">週日</span><span style="font-family:&quot;Times New Roman&quot;,serif">10:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">20:30</span></span></span></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">3</span></span></strong><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">、阿婆烤玉米</span></span></strong></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義市東區的阿婆烤玉米，受到許多當地人的認可超級好吃，老闆是以秤重算錢，香甜的玉米配上秘制醬料讓路過的人都直流口水。</span></span></span></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：嘉義市東區民族路</span><span style="font-family:&quot;Times New Roman&quot;,serif">312</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">營業時間：</span><span style="font-family:&quot;Times New Roman&quot;,serif">10:30</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">21:00</span><span style="font-family:標楷體">（周二公休）</span></span></span></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">4</span></span></strong><strong><span style="font-size:20.0pt"><span style="font-family:標楷體">、林聰明砂鍋魚頭</span></span></strong></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">再來要來介紹的嘉義也是火爆的美食，林聰明砂鍋魚頭有兩家分店，文化夜市附近的林聰明中正總店，平日下午去用餐比較不用人擠人，但是我個人偏愛另外一間分店，因為總店的湯頭偏鹹。</span></span></span></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">中正總店</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：嘉義市東區中正路</span><span style="font-family:&quot;Times New Roman&quot;,serif">361</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">營業時間：</span><span style="font-family:&quot;Times New Roman&quot;,serif">11:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">22:00</span><span style="font-family:標楷體">（週二公休）</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">光華分店</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：嘉義市東區光華路</span><span style="font-family:&quot;Times New Roman&quot;,serif">122</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">營業時間：</span><span style="font-family:&quot;Times New Roman&quot;,serif">12:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">22:00</span><span style="font-family:標楷體">（週二公休）</span></span></span></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:24.0pt"><span style="font-family:標楷體">「景點推薦」</span></span></strong></span></span></p>
+
+			<p align=center><img width=553 height=290 src="https://jamie-commander.github.io/picture/4.jpg" ></p>
+
+			<p style="text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義室內景點：嘉義市立美術館</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：</span><span style="font-family:&quot;Times New Roman&quot;,serif">600</span><span style="font-family:標楷體">嘉義市西區廣寧街</span><span style="font-family:&quot;Times New Roman&quot;,serif">101</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">開放時間：</span><span style="font-family:&quot;Times New Roman&quot;,serif">09:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">17:00</span><span style="font-family:標楷體">，週一公休</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">入園門票：</span><span style="font-family:&quot;Times New Roman&quot;,serif">$50/</span><span style="font-family:標楷體">人</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義情侶景點：嘉義文化創意產業園區</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：</span><span style="font-family:&quot;Times New Roman&quot;,serif">600</span><span style="font-family:標楷體">嘉義市西區中山路</span><span style="font-family:&quot;Times New Roman&quot;,serif">616</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">開放時間：</span><span style="font-family:&quot;Times New Roman&quot;,serif">10:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">18:00</span><span style="font-family:標楷體">，外部全天候開放</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">入園門票：免費參觀</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義拍照景點：檜意森活村</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：</span><span style="font-family:&quot;Times New Roman&quot;,serif">600</span><span style="font-family:標楷體">嘉義市東區林森東路</span><span style="font-family:&quot;Times New Roman&quot;,serif">1</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">開放時間：</span><span style="font-family:&quot;Times New Roman&quot;,serif">10:00</span><span style="font-family:標楷體">&ndash;</span><span style="font-family:&quot;Times New Roman&quot;,serif">18:00</span><span style="font-family:標楷體">，外部全天候開放</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">入園門票：免費參觀</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義新景點：沉睡森林主題公園</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：</span><span style="font-family:&quot;Times New Roman&quot;,serif">600</span><span style="font-family:標楷體">嘉義市東區共和路</span><span style="font-family:&quot;Times New Roman&quot;,serif">239</span><span style="font-family:標楷體">號</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">開放時間：全天候開放</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">入園門票：免費參觀</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center">&nbsp;</p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">嘉義拍照景點：森林之歌</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">地址：</span><span style="font-family:&quot;Times New Roman&quot;,serif">600</span><span style="font-family:標楷體">嘉義市東區文化路</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">開放時間：全天候開放</span></span></span></p>
+
+			<p style="margin-left:32px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:標楷體">入園門票：免費參觀</span></span></span></p>
+
+		</div>
+    </body>
+	<footer>
+	</footer>
+</html>
